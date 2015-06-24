@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'welcome/index'
+
   resources :friends
   resources :annotations
   # The priority is based upon order of creation: first created -> highest priority.
